@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+<form id="studentForm">
+    <label for="studName">Student Name:</label>
+    <input type="text" id="studName" name="studName" required><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+
+    <label for="strongSub">Strong Subject:</label>
+    <input type="text" id="strongSub" name="strongSub" required><br>
+
+    <label for="strongSubtop">Top Performer in Strong Subject:</label>
+    <input type="text" id="strongSubtop" name="strongSubtop" required><br>
+
+    <label for="weakSub">Weak Subject:</label>
+    <input type="text" id="weakSub" name="weakSub" required><br>
+
+    <label for="weakSubtop">Top Performer in Weak Subject:</label>
+    <input type="text" id="weakSubtop" name="weakSubtop" required><br>
+
+    <label for="descriptionstu">Student Description:</label>
+    <textarea id="descriptionstu" name="descriptionstu" rows="4" required></textarea><br>
+
+    <label for="student">Registration Date & Time:</label>
+    <input type="datetime-local" id="student" name="student" required><br><br>
+
+    <input type="submit" value="Register">
+</form>
+
+<script src="app.js"></script>
+</body>
+</html>
